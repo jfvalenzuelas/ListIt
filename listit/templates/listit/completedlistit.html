@@ -1,5 +1,5 @@
 {% extends 'listit/base.html' %}
-
+Completed
 {% block content %}
     <ul>
         {% for item in items %}
@@ -18,6 +18,8 @@
                     {% if item.memo %}
                     - {{ item.memo }}
                     {% endif %}
+
+                    {{ item.completed_at|date:'M j Y H:i' }}
                 </a>
             </li>
         {% endfor %}

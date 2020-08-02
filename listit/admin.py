@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Item
 
-# Register your models here.
+class ListItAdmin(admin.ModelAdmin):
+    readonly_fields = ('created_at',)
+
+admin.site.register(Item, ListItAdmin)

@@ -27,5 +27,10 @@ urlpatterns = [
 
     #ListIt
     path('', views.home, name="home"),
+    path('create/', views.createitem, name="createitem"),
     path('current/', views.currentlistit, name="currentlistit"),
+    path('completed/', views.completedlistit, name="completedlistit"),
+    path('item/<int:item_pk>', views.viewitem, name="viewitem"),
+    path('item/<int:item_pk>/complete', views.completeitem, name="completeitem"),
+    path('item/<int:item_pk>/delete', views.deleteitem, name="deleteitem"),
 ]
