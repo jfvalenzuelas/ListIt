@@ -1,27 +1,18 @@
 {% extends 'listit/base.html' %}
-Completed
+
 {% block content %}
-    <ul>
-        {% for item in items %}
-            <li>
-                <a href="{% url 'viewitem' item.id %}">
-                    {% if item.important %}
-                        <b>
-                    {% endif %}
-
-                    {{ item.title }}
-
-                    {% if item.important %}
-                        </b>
-                    {% endif %}
-
-                    {% if item.memo %}
-                    - {{ item.memo }}
-                    {% endif %}
-
-                    {{ item.completed_at|date:'M j Y H:i' }}
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-10">
+            <h1>Completed Items</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-10">
+            <div class="list-group">
+                {% for item in items %}
+                    <a href="{% url 'viewitem' item.id %}" class="list-group-item list-group-item-action{% if item.important %} list-group-item-danger{% endif %}"><b>{{ item.title }}</b> - Completed {{ item.completed_at|date:'M j Y H:i' }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 {% endblock %}

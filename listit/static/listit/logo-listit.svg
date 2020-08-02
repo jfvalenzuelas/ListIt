@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="970"
+   height="970"
+   viewBox="0 0 256.64583 256.64584"
+   version="1.1"
+   id="svg1614">
+  <defs
+     id="defs1608">
+    <rect
+       x="276.56995"
+       y="310.91183"
+       width="232.55956"
+       height="81.081573"
+       id="rect1778" />
+    <rect
+       x="276.56995"
+       y="310.91183"
+       width="232.55956"
+       height="81.081573"
+       id="rect2186" />
+    <linearGradient
+       gradientTransform="matrix(0.68585888,0,0,0.74239621,-508.5595,-237.93315)"
+       y2="447.61719"
+       x2="968.32422"
+       y1="447.46484"
+       x1="895.55078"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1593"
+       xlink:href="#gradienti3bXfbQCKI-0-3" />
+    <linearGradient
+       id="gradienti3bXfbQCKI-0-3"
+       gradientUnits="userSpaceOnUse"
+       x1="324.04999"
+       y1="68.559998"
+       x2="324.04999"
+       y2="278.56">
+      <stop
+         style="stop-color:#ffb900;stop-opacity:1"
+         offset="0%"
+         id="stop10" />
+      <stop
+         style="stop-color:#ffdc3a;stop-opacity:1"
+         offset="100%"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(1.2041456,0,0,1.2041457,-319.33579,-247.87889)"
+       gradientUnits="userSpaceOnUse"
+       y2="415.12506"
+       x2="407.35745"
+       y1="415.74881"
+       x1="327.97501"
+       id="linearGradient1606"
+       xlink:href="#gradienti3bXfbQCKI-0-3" />
+    <linearGradient
+       gradientTransform="matrix(2.864071,0,0,2.864071,-913.61115,-584.90633)"
+       gradientUnits="userSpaceOnUse"
+       y2="415.12506"
+       x2="407.35745"
+       y1="415.74881"
+       x1="327.97501"
+       id="linearGradient2199"
+       xlink:href="#gradienti3bXfbQCKI-0-3" />
+  </defs>
+  <metadata
+     id="metadata1611">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       id="rect53"
+       style="fill:url(#linearGradient1593);fill-opacity:1;fill-rule:evenodd;stroke-width:0.714995;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 141.01445,6.1672707 v 0.00152 a 0.57211948,0.62338214 0 0 0 -0.006,0 0.57211948,0.62338214 0 0 0 -0.0522,0.00284 h -1.27929 -3.13057 -7.2993 -7.29931 -3.13057 -1.27929 a 0.57211948,0.62338214 0 0 0 -0.0522,-0.00284 0.57211948,0.62338214 0 0 0 -0.006,0 0.57211948,0.62338214 0 0 0 -0.56664,0.6235005 0.57211948,0.62338214 0 0 0 0,0.00436 0.57211948,0.62338214 0 0 0 0,0.00152 v 8.3345538 h -24.319865 -0.04424 c 0.0037,-3e-5 0.0056,0.0022 0.0084,0.0028 -0.254244,0.02034 -0.45098,0.246528 -0.451438,0.519099 2.24e-4,0.0092 4.96e-4,0.01842 9.35e-4,0.02756 l -9.35e-4,0.0015 c -0.01291,2.550012 -0.0096,5.144827 -0.0094,7.33116 l -7.726618,0.01308 c 0,0 -0.350302,-0.04522 -0.618876,0.24795 -0.302877,0.330552 -0.24113,0.717744 -0.24113,0.717744 l 0.0037,122.013972 c 0,0 -0.08718,0.54236 0.208971,0.8845 0.255348,0.29502 0.961807,0.23488 0.961807,0.2349 h 44.562089 v -9.5e-4 h 44.56207 c 0,0 0.70645,0.0601 0.9618,-0.23488 0.29613,-0.34214 0.20898,-0.88451 0.20898,-0.88451 l 0.004,-122.013961 c 0,0 0.0617,-0.387201 -0.24113,-0.717754 -0.26858,-0.293175 -0.61888,-0.24794 -0.61888,-0.24794 l -7.72657,-0.01299 c 0,-2.186327 0.004,-4.781151 -0.009,-7.331163 l -9.3e-4,-0.0015 c 4.9e-4,-0.0091 9.3e-4,-0.01878 9.3e-4,-0.02756 -4.9e-4,-0.272555 -0.19718,-0.498802 -0.45144,-0.519091 0.002,0 0.005,-0.0029 0.008,-0.0028 h -0.0442 -24.31986 V 6.7966322 a 0.57211948,0.62338214 0 0 0 0,-0.00578 0.57211948,0.62338214 0 0 0 -0.56665,-0.6234948 z m -19.06607,5.0880273 h 7.29929 7.29933 v 3.878731 h -7.29933 -7.29929 z M 97.205212,20.702 h 32.042458 32.04248 V 32.908027 H 129.24767 97.205212 Z m 73.220798,7.631302 0.008,113.535868 -41.18636,0.0363 v 9.5e-4 l -41.18636,-0.0363 0.0084,-113.53587 4.028081,0.0047 v 9.875887 l 0.0028,0.0057 c 0.02105,0.271022 0.233216,0.47932 0.487601,0.478505 0.01525,-2.08e-4 0.0305,-9.48e-4 0.04556,-0.0028 h 36.614418 36.61442 c 0.0151,9.48e-4 0.0303,0.0028 0.0455,0.0028 0.25437,7.49e-4 0.46666,-0.207483 0.4876,-0.478505 l 0.003,-0.0076 v -9.875518 z m -20.84368,38.501653 c -1.70768,0.328533 -2.24553,0.323737 -4.06291,2.319991 L 123.2424,99.087138 112.95184,87.487205 c -1.74369,-2.103815 -2.46516,-2.507917 -4.44067,-2.508496 -3.00054,0.590513 -4.06175,2.438672 -4.48622,5.118487 -4.9e-4,2.024056 0.58855,2.568348 1.63695,4.165817 l 13.86186,16.045637 c 1.78228,1.86525 1.92474,1.60573 3.96111,1.93428 2.25358,-0.65599 2.64099,-0.66048 4.23035,-2.66799 l 25.3406,-33.725377 c 1.23383,-1.73636 1.467,-2.23062 1.46684,-4.257169 -0.66726,-3.068864 -1.79576,-4.298063 -4.94033,-4.757439 z" />
+    <text
+       transform="matrix(1.5363445,0,0,1.4651064,-423.00129,-313.73977)"
+       xml:space="preserve"
+       id="text1776"
+       style="font-style:normal;font-weight:normal;font-size:23.7037px;line-height:0;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1778);fill:#fbfbfb;fill-opacity:1;stroke:none;"><tspan
+         x="276.57031"
+         y="373.13432"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:71.1111px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#fbfbfb;fill-opacity:1">ListIt</tspan></tspan></text>
+    <text
+       transform="scale(1.0116969,0.98843835)"
+       id="text1514"
+       y="256.64996"
+       x="27.563307"
+       style="font-style:normal;font-weight:normal;font-size:13.2127px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient1606);fill-opacity:1;stroke:none;stroke-width:0.330316"
+       xml:space="preserve"><tspan
+         style="fill:url(#linearGradient1606);fill-opacity:1;stroke-width:0.330316"
+         y="256.64996"
+         x="27.563307"
+         id="tspan1512">G E T   T H I N G S   D O N E !</tspan></text>
+  </g>
+</svg>

@@ -13,7 +13,10 @@ def home(request):
 
 def signupuser(request):
     if request.method == 'GET':
-        return render(request, 'listit/signupuser.html', {'form':UserCreationForm()})
+        if request.user.is_authenticated:
+            return redirect('currentlistit')
+        else:
+            return render(request, 'listit/signupuser.html', {'form':UserCreationForm()})
     else:
         # Create a new user
         if request.POST['password1'] == request.POST['password2']:

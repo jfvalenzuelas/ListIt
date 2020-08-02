@@ -1,25 +1,30 @@
 {% extends 'listit/base.html' %}
 
 {% block content %}
-    <ul>
-        {% for item in items %}
-            <li>
-                <a href="{% url 'viewitem' item.id %}">
-                    {% if item.important %}
-                        <b>
-                    {% endif %}
-
-                    {{ item.title }}
-
-                    {% if item.important %}
-                        </b>
-                    {% endif %}
-
-                    {% if item.memo %}
-                    - {{ item.memo }}
-                    {% endif %}
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-10">
+            {% if items %}
+                 <h1>{{ items.count }} Current Item{{ items.count|pluralize }}</h1>
+            {% else %}
+                           <h1>Current Items</h1>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-10">
+        {% if items %}
+            <div class="list-group">
+                {% for item in items %}
+                    <a href="{% url 'viewitem' item.id %}" class="list-group-item list-group-item-action{% if item.important %} list-group-item-danger{% endif %}"><b>{{ item.title }}</b>{% if item.memo %} - {{ item.memo|truncatechars:30 }}{% endif %}</a>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="text-center">
+                <h2>Looks like you don't have any items! Nice work.</h2>
+            <br>
+            <a role="button" class="btn btn-primary" href="{% url 'createitem' %}">New Item</a>
+            </div>
+        {% endif %}
+        </div>
+    </div>
 {% endblock %}
